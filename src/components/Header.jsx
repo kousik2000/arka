@@ -5,14 +5,13 @@ export default function Header() {
 
     const toggleMenu = () => setIsOpen(!isOpen);
 
-    const menuItems = ['home', 'about', 'services', 'contact'];
+    const menuItems = ['home', 'about', 'services', 'portfolio'];
 
     return (
-        <header className="w-full bg-white bg-opacity-70 backdrop-blur-md shadow-md z-50 transition-all duration-300 pr-20 pl-20">
-            <div className="container mx-auto flex items-center justify-between p-4">
-                <img src="src/assets/arka.png" alt="MyLogo" className="h-10 w-auto" />
+        <header className="fixed w-full bg-transparent z-50 transition-all duration-300 px-10 md:px-20">
+            <div className="bg-white mt-10 container mx-auto flex items-center justify-between p-4 px-6 md:px-10 rounded-lg shadow-lg">
+                <img src="https://i.ibb.co/HfY9WM10/arka.png" alt="MyLogo" className="h-12 w-auto" />
 
-                {/* Desktop Menu */}
                 <nav className="hidden md:flex gap-6">
                     {menuItems.map(item => (
                         <a
@@ -24,6 +23,10 @@ export default function Header() {
                         </a>
                     ))}
                 </nav>
+
+                <button className="bg-[#f2730c] hover:bg-[#d6600b] transition text-white font-bold px-5 py-2 rounded-xl hidden md:block">
+                    Contact
+                </button>
 
                 {/* Mobile Menu Button */}
                 <button className="md:hidden text-[#f2730c]" onClick={toggleMenu}>
