@@ -12,7 +12,7 @@ export default function Sections() {
       <div 
         className="fixed inset-0 -z-10"
         style={{ 
-          backgroundImage: 'linear-gradient(rgba(24, 20, 17, 0.6), rgba(24, 20, 17, 0.6)), url("https://res-console.cloudinary.com/dve1e9rx3/media_explorer_thumbnails/a11d4bcd7adf5f63573951c7285874dc/detailed")',
+          backgroundImage: 'linear-gradient(rgba(24, 20, 17, 0.6), rgba(24, 20, 17, 0.6)), url("https://i.ibb.co/99ngPDG8/background-2.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'multiply',
