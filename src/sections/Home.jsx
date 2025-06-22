@@ -5,7 +5,7 @@ export default function Home() {
             style={{ fontFamily: 'Manrope, "Noto Sans", sans-serif' }}
         >
             <div>
-                <div className="@container">
+                <div className="@container" >
                     <div>
                         <div
                             className="flex min-h-[calc(100vh-64px)] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-4 rounded-xl"

@@ -7,8 +7,7 @@ import Contact from '../sections/Contact';
 
 export default function Sections() {
   return (
-    <div className="relative size-full">
-      {/* Fixed background https://i.ibb.co/8L6PH9Hc/Leonardo-Phoenix-A-serene-and-modern-landscaping-architecture-3.jpg */}
+    <div className="relative size-full scroll-smooth">
       <div 
         className="fixed inset-0 -z-10"
         style={{ 
@@ -22,27 +21,27 @@ export default function Sections() {
 
       {/* Scrollable content */}
       <main className="flex flex-col bg-transparent">
-        <section id="home" className="min-h-screen flex items-center justify-center">
+        <section id="home" className="min-h-screen flex items-center justify-center scroll-smooth">
           <Home />
         </section>
 
-        <section id="about" className="min-h-screen flex items-center justify-center">
+        <section id="about" className="min-h-screen flex items-center justify-center scroll-smooth">
           <About />
         </section>
 
-        <section id="services" className="flex items-center justify-center">
+        <section id="services" className="flex items-center justify-center scroll-smooth">
           <Services />
         </section>
 
-        <section id="portfolio" className="min-h-screen flex items-center justify-center">
+        <section id="portfolio" className="min-h-screen flex items-center justify-center scroll-smooth">
           <Portfolio />
         </section>
 
-        {/* <section id="services2" className="min-h-screen flex items-center justify-center bg-yellow-100">
+        {/* <section id="services2" className="min-h-screen flex items-center justify-center scroll-smooth bg-yellow-100">
           <h2 className="text-4xl font-bold">Services Section</h2>
         </section> */}
 
-        <section id="contact" className="min-h-screen flex items-center justify-center">
+        <section id="contact" className="min-h-screen flex items-center justify-center scroll-smooth">
           <Contact />
         </section>
       </main>

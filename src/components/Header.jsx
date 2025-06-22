@@ -25,7 +25,13 @@ export default function Header() {
                 </nav>
 
                 <button className="bg-[#f2730c] hover:bg-[#d6600b] transition text-white font-bold px-5 py-2 rounded-xl hidden md:block">
-                    Contact
+                    <a
+                        key="contact"
+                        href={`#contact`}
+                        className="capitalize text-white font-medium transition-colors"
+                    >
+                        Contact
+                    </a>
                 </button>
 
                 {/* Mobile Menu Button */}

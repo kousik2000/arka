@@ -99,7 +99,7 @@ const Contact = () => {
 
                         {/* Email */}
                         <a
-                            href="mailto:kousik.ramachandruni@gmail.com"
+                            href="mailto:arkanestdesigns@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-20 flex flex-col items-center text-white hover:text-[#f2730c] transition"
