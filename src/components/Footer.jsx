@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="flex flex-col gap-6 px-5 py-10 bg-gray-800 text-white text-center @container">
-            <div className="flex flex-wrap justify-center gap-4">
+            {/* <div className="flex flex-wrap justify-center gap-4">
                 <a href="#">
                     <div className="text-[#baa99c]" data-icon="TwitterLogo" data-size="24px" data-weight="regular">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
@@ -29,8 +29,8 @@ export default function Footer() {
                         </svg>
                     </div>
                 </a>
-            </div>
-            <p className="text-[#baa99c] text-base font-normal leading-normal">@2024 Design Co. All Rights Reserved</p>
+            </div> */}
+            <p className="text-[#baa99c] text-base font-normal leading-normal">@2024 Arka Nest Designs. All Rights Reserved</p>
         </footer>
     );
 }

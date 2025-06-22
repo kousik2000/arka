@@ -19,9 +19,9 @@ const Contact = () => {
             style={{ fontFamily: 'Manrope, "Noto Sans", sans-serif' }}
         >
             <div className="max-w-xl w-full">
-                <h2 className="text-3xl md:text-4xl font-bold text-center text-[#f2730c] mb-10">
+                <h1 className="text-white text-4xl font-black text-center mb-10">
                     Contact Me
-                </h2>
+                </h1>
                 <form onSubmit={handleSubmit} className="space-y-6 backdrop-blur-md p-10 rounded-xl shadow-lg">
                     {/* Name */}
                     <div className="text-left">
