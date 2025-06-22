@@ -8,8 +8,8 @@ export default function Header() {
     const menuItems = ['home', 'about', 'services', 'portfolio'];
 
     return (
-        <header className="fixed w-full bg-transparent z-50 transition-all duration-300 px-10 md:px-20">
-            <div className="bg-white mt-10 container mx-auto flex items-center justify-between p-4 px-6 md:px-10 rounded-lg shadow-lg">
+        <header className="fixed w-full bg-transparent z-50 transition-all duration-300 px-5 md:px-20">
+            <div className="bg-white mt-10 container mx-auto flex items-center justify-between p-4 px-3 md:px-10 rounded-lg shadow-lg">
                 <img src="https://i.ibb.co/HfY9WM10/arka.png" alt="MyLogo" className="h-12 w-auto" />
 
                 <nav className="hidden md:flex gap-6">
